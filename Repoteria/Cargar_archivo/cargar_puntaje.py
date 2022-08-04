@@ -9,9 +9,9 @@ class CargaArchivo:
     loc=("puntaje.xlsx")
 
     mydb = mysql.connector.connect(
-      host='192.168.0.115',
+      host='ip',
       user='victor',
-      password='192.168.1.2',
+      password='passwd',
       database='test')
 
     mycursor = mydb.cursor()
